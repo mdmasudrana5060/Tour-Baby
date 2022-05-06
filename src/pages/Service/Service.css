@@ -1,0 +1,13 @@
+.service {
+    height: 800px;
+    background-color: pink;
+
+}
+
+.description {
+    height: 300px;
+    white-space: inherit;
+    overflow: hidden;
+    text-overflow: ellipsis;
+
+}

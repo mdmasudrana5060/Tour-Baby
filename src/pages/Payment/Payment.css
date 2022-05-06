@@ -1,0 +1,17 @@
+.single-payment {
+
+    background-color: pink;
+}
+
+.single-payment img {
+    height: 300px;
+
+
+
+}
+
+.single-payment Button {
+    padding: 10px 20px 10px 20px;
+    font-size: medium;
+    font-weight: 600;
+}
