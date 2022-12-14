@@ -9,7 +9,7 @@ const PlaceBooking = (props) => {
 
     const onSubmit = (data) => {
         data.status = "Pending";
-        fetch('https://gentle-retreat-98133.herokuapp.com/addbooking', {
+        fetch('https://tour-baby-server-production.up.railway.app/addbooking', {
             method: "POST",
             headers: {
                 "content-type": "application/json"

@@ -14,7 +14,7 @@ const SingleService = () => {
 
 
     useEffect(() => {
-        fetch(`https://gentle-retreat-98133.herokuapp.com/services/${id}`)
+        fetch(`https://tour-baby-server-production.up.railway.app/services/${id}`)
             .then(res => res.json())
             .then(data => setServiceDetails(data));
 

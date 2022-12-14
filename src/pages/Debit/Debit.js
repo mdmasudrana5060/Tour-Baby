@@ -6,7 +6,7 @@ import { useForm } from 'react-hook-form';
 const Debit = () => {
     const { register, handleSubmit, reset } = useForm();
     const onSubmit = (data) => {
-        fetch('https://gentle-retreat-98133.herokuapp.com/debit', {
+        fetch('https://tour-baby-server-production.up.railway.app/debit', {
             method: "POST",
             headers: {
                 "content-type": "application/json"

@@ -14,7 +14,7 @@ const MyBookings = () => {
     const handleDelete = (id) => {
         const proceed = window.confirm("DO You want to delete?");
         if (proceed) {
-            fetch(`https://gentle-retreat-98133.herokuapp.com/deleteBooking/${id}`, {
+            fetch(`https://tour-baby-server-production.up.railway.app/deleteBooking/${id}`, {
                 method: "DELETE",
                 headers: {
                     "content-type": "application/json"
