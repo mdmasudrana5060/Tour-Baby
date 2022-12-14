@@ -6,7 +6,7 @@ import "./Services.css"
 const Services = () => {
     const [services, setServices] = useState([]);
     useEffect(() => {
-        fetch('https://tour-baby-server-production.up.railway.app/services')
+        fetch('tour-baby-server-production.up.railway.app/services')
             .then(res => res.json())
             .then(data => setServices(data))
     }, [])
